@@ -1,24 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="css\style.css"/>
 <script src="script.js" defer></script>
 <title>js Shopping Wizzard</title>
 </head>
   <body>
-    <nav></nav>
-<section class="homepage">
-<div class="main-carousel"></div>
+    <section class="container products">
+    <nav class="homepage">
+  <div class="logo">
+    <a href="#"><img src="" alt="">Logo</a>
+  </div>
+  <div class="about-us">
+    <ul>
+      <li><a herf="#">About Us</a></li>
+      <li><a herf="#">Contact Us</a></li>
+      <li><a herf="#">F.A.Q</a></li>
+    </ul>
+    </div>
+    </nav>
+  <div class="main-carrusel">
+  <div class="mySlides">
+    <div class="numberText">1 / 4</div>
+    <img src="guidance images\assets\1 falcon 9.jpg" style="width: 100%">
+  </div>
+  <div class="mySlides">
+    <div class="numberText">2 / 4</div>
+    <img src="guidance images\assets\2 falcon heavy.jpg" style="width: 100%">
+  </div>
+  <div class="mySlides">
+    <div class="numberText">3 / 4</div>
+    <img src="guidance images\assets\3 dragon.jpeg" style="width: 100%">
+  </div>
+  <div class="mySlides">
+    <div class="numberText">4 / 4</div>
+    <img src="guidance images\assets\4 starship-scaled.jpg" style="width: 100%">
+  </div>
+  <a class="prev" onclick="plusSlides (-1)">❮</a>
+  <a class="next" onclick="plusSlides (-1)">❯</a>
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+  <div class="rows">
+    <div class="column">
+      <img class="demo cursor" src="guidance images\assets\1 falcon 9.jpg" style="width: 100%" onclick="currentSlide(1)" alt="Falcon 9">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="guidance images\assets\2 falcon heavy.jpg" style="width: 100%" onclick="currentSlide(1)" alt="Falcon Heavy">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="guidance images\assets\3 dragon.jpeg" style="width: 100%" onclick="currentSlide(1)" alt="Dragon">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="guidance images\assets\4 starship-scaled.jpg" style="width: 100%" onclick="currentSlide(1)" alt="Starship">
+    </div>
+  </div>
+</div>
+
+  <div class="selector-products">Selestor products</div>
+  <div class="colors">colors</div>
 </section>
     <div>
       <section id="step1"><!-- Pagina de modelo y color -->
         <nav></nav>
-        
+
 
         <section class="product"></section>
         <section class="product"></section>
         <section class="product"></section>
         <section class="product"></section>
       </section>
+    </div>
       <section id="step2"><!-- username y password -->
 
       </section>

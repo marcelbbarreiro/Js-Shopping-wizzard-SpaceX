@@ -1,0 +1,163 @@
+@import url(https://www.fontsquirrel.com/fonts/d-din);
+
+html{
+  font-family:
+}
+
+body {
+  margin: 0 auto;
+  min-height: 100%;
+}
+
+/* Header */
+.container {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 150px auto 150px;
+  grid-template-rows: repeat(3, 100px);
+  background-color: rgb(145, 145, 14);
+}
+.products > *{
+  background-color: aquamarine;
+  border: 1px solid black;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homepage {
+  grid-column: 1 / 4;
+}
+.logo{
+  height: 70px;
+}
+
+/* .logo img{
+  display: block;
+  width: 60px;
+  height: 65px;
+  object-fit: cover;
+  padding-right: 50px;
+} */
+
+.about-us li{
+  list-style: none;
+  display: inline-block;
+  font-family: 'Work Sans', sans-serif;
+  padding-left: 10px;
+}
+.links a{
+  text-decoration: none;
+  color: rgb(204, 8, 8);
+}
+.main-carrusel{
+  grid-column: 1 / 3;
+  grid-row: 2 / 4;
+}
+.selector-products{
+  grid-column: 3 / 3;
+}
+.colors {
+  grid-column: 3 / 4;
+}
+@media (min-width: 600px){
+  grid-template-rows: repeat(5, 100px);
+}
+
+/* MAIN CARRUSEL / SLIDERS*/
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image MAIN-CARRUSEL (needed to position the left and right arrows) */
+.main-carrusel {
+  grid-column: 1 / 3;
+  grid-row: 2 / 4;
+}
+
+/* Hide the images by default */
+.mySlides {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numberText {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  grid-row: 3 / 4;
+  grid-column: 3 / 3;
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}*****
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
