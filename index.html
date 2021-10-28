@@ -1,34 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="style.css"/>
-<script src="script.js" defer></script>
-<title>js Shopping Wizzard</title>
-</head>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>js Shopping Wizzard</title>
+  </head>
   <body>
     <nav></nav>
-<section class="homepage">
-<div class="main-carousel"></div>
-</section>
+    <section class="homepage">
+      <div class="main-carousel"></div>
+    </section>
     <div>
-      <section id="step1"><!-- Pagina de modelo y color -->
+      <section id="step1">
+        <!-- Pagina de modelo y color -->
         <nav></nav>
-        
 
         <section class="product"></section>
         <section class="product"></section>
         <section class="product"></section>
       </section>
-      <section id="step2"><!-- username y password -->
+      <section id="step2">
+        <!-- username y password -->
+        <form id="profileForm">
+          <label for="userName">Username:</label><br />
+          <input
+            type="text"
+            id="userName"
+            name="userName"
+            placeholder="Be original"
+            required
+            minlength="5"
+            maxlength="20"
+          /><br />
+          <label for="email">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your email goes here"
+            required
+            maxlength="50"
+          /><br />
+          <label for="password">Password:</label><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            minlength="8"
+            maxlength="20"
+          /><br />
+          <label for="repeatPassword">Repeat password:</label><br />
+          <input
+            type="password"
+            id="repeatPassword"
+            name="repeatPassword"
+            required
+            minlength="8"
+            maxlength="20"
+          /><br />
+          <button type="button">NEXT</button>
+        </form>
+      </section>
 
-      </section>
-      
-      <section id="step3"><!-- Direccion de envio -->
+      <section id="step3"><!-- Direccion de envio --></section>
 
-      </section>
-      
-      <section id="step4"><!-- Modo de envio -->
-      </section>
-      
+      <section id="step4"><!-- Modo de envio --></section>
     </div>
   </body>
 </html>
