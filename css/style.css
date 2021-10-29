@@ -14,11 +14,11 @@ body {
   display: grid;
   gap: 15px;
   grid-template-columns: 150px auto 150px;
-  grid-template-rows: repeat(3, 100px);
+  grid-template-rows: repeat(3, 200px);
   background-color: rgb(145, 145, 14);
 }
 .products > *{
-  background-color: aquamarine;
+  background-color: rgb(118, 104, 121);
   border: 1px solid black;
   color: aliceblue;
   display: flex;
@@ -66,13 +66,13 @@ body {
 
 /* MAIN CARRUSEL / SLIDERS*/
 
-* {
+/* * {
   box-sizing: border-box;
 }
 
 img {
   vertical-align: middle;
-}
+} */
 
 /* Position the image MAIN-CARRUSEL (needed to position the left and right arrows) */
 .main-carrusel {
@@ -97,7 +97,7 @@ img {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 60%;
+  top: 600%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
