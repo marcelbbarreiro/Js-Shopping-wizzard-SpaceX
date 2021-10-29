@@ -1,85 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="/css/style.css"/>
-<script src="script.js" defer></script>
+<link rel="stylesheet" href="/css/style.css" />
+<script src="scripts\script.js" defer></script>
 <title>js Shopping Wizzard</title>
 </head>
-  <body>
-<section class="homepage">
-  <div class="logo">
+
+<body>
+  <section class="homepage">
     <nav class="home-nav">
-      <img src="/images/logo.png" width="9%" />
-      <ul>
-        <li>About us</li>
-        <li>FAQ</li>
-        <li>Who is Elon?</li>
-        <li>Contact us</li>
-      </ul>
-    </nav>
-  </div>
-  <div class="main-carrusel">
-  <div class="mySlides">
-    <div class="numberText">1 / 4</div>
-    <img src="guidance images\assets\1 falcon 9.jpg">
-  </div>
-  <div class="mySlides">
-    <div class="numberText">2 / 4</div>
-    <img src="guidance images\assets\2 falcon heavy.jpg">
-  </div>
-  <div class="mySlides">
-    <div class="numberText">3 / 4</div>
-    <img src="guidance images\assets\3 dragon.jpeg">
-  </div>
-  <div class="mySlides">
-    <div class="numberText">4 / 4</div>
-    <img src="guidance images\assets\4 starship-scaled.jpg">
-  </div>
-  <a class="prev" onclick="plusSlides (-1)">❮</a>
-  <a class="next" onclick="plusSlides (-1)">❯</a>
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-  <div class="rows">
-    <div class="column">
-      <img class="demo cursor" src="guidance images\assets\1 falcon 9.jpg" style="width: 100%" onclick="currentSlide(1)" alt="Falcon 9">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="guidance images\assets\2 falcon heavy.jpg" style="width: 100%" onclick="currentSlide(1)" alt="Falcon Heavy">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="guidance images\assets\3 dragon.jpeg" style="width: 100%" onclick="currentSlide(1)" alt="Dragon">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="guidance images\assets\4 starship-scaled.jpg" style="width: 100%" onclick="currentSlide(1)" alt="Starship">
-    </div>
-  </div>
-</div>
-
-  <div class="selector-products">Selector products</div>
-  <div class="colors">colors</div>
-</section>
     <div>
-      <section id="step1"><!-- Pagina de modelo y color -->
-        <nav></nav>
+        <img class="logo" src="/images/logo.png">
+        <ul>
+          <li>About us</li>
+          <li>FAQ</li>
+          <li>Who is Elon?</li>
+          <li>Contact us</li>
+        </ul>
+      </div>
+      </nav>
 
-
-        <section class="product"></section>
-        <section class="product"></section>
-        <section class="product"></section>
-        <section class="product"></section>
-      </section>
+    <div class="main-carrusel">
+      <div class="columnL">
+        <img class="ImgFirst" src="guidance images\assets\1 falcon 9.jpg" alt="Falcon 9">
+        <div class="mySlides">
+          <img src="guidance images\assets\1 falcon 9.jpg">
+          <img src="guidance images\assets\2 falcon heavy.jpg">
+          <img src="guidance images\assets\3 dragon.jpeg">
+          <img src="guidance images\assets\4 starship-scaled.jpg">
+        </div>
+      </div>
+      <div class="columnR">
+    <div class="selector">Selector products</div>
+    <div class="colors">colors</div>
     </div>
-      <section id="step2"><!-- username y password -->
-
-      </section>
-      
-      <section id="step3"><!-- Direccion de envio -->
-
-      </section>
-      
-      <section id="step4"><!-- Modo de envio -->
-      </section>
-      
     </div>
-  </body>
+  </section>
+    <section id="step1">
+      <!-- Pagina de modelo y color -->
+      <nav></nav>
+      <section class="product"></section>
+      <section class="product"></section>
+      <section class="product"></section>
+      <section class="product"></section>
+    </section>
+  </div>
+  <section id="step2">
+    <!-- username y password -->
+
+  </section>
+
+  <section id="step3">
+    <!-- Direccion de envio -->
+
+  </section>
+
+  <section id="step4">
+    <!-- Modo de envio -->
+  </section>
+
+  </div>
+</body>
+
 </html>

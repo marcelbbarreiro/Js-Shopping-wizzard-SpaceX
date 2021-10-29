@@ -1,52 +1,22 @@
 @import url(https://www.fontsquirrel.com/fonts/d-din);
 
-html{
-  font-family:
-}
-
 body {
   margin: 0 auto;
-  min-height: 100%;
 }
 
 /* Header */
-.container {
-  display: grid;
-  gap: 15px;
-  grid-template-columns: 150px auto 150px;
-  grid-template-rows: repeat(3, 200px);
-  background-color: rgb(145, 145, 14);
-}
-.products > *{
-  background-color: rgb(118, 104, 121);
-  border: 1px solid black;
-  color: aliceblue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}*****
-
 /* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
+.homepage {
+  background-color: rgba(51, 50, 50, 0.733);
 }
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-
 .home-nav {
     display: flex;
     justify-content: center;
     background: rgba(0, 0, 0, 0.795);
     color: rgba(255, 255, 255, 0.877);
-    margin-top: -0.5%;
+    margin-top: 0%;
+    height: 70%;
+    padding: 15px;
 }
 
 .home-nav img {
@@ -55,113 +25,44 @@ body {
 }
 
 .home-nav ul{
-    display: flex;
-    flex-direction: row;  
-    width: 20%;
+    display: inline-flex;
+    
 }
 
-.home-nav ul li {
-    margin-left: 20%;
+.home-nav ul li{
+  padding: 15px;
     text-decoration: none;
     list-style: none;
+    font-size: 35px;
 }
 .logo{
-  height: 70px;
+padding: 25px;
+  width: 15%;
 }
 
-.main-carrusel{
-  grid-column: 1 / 3;
-  grid-row: 2 / 4;
-}
-.selector-products{
-  grid-column: 3 / 3;
-}
-.colors {
-  grid-column: 3 / 4;
-}
-@media (min-width: 600px){
-  grid-template-rows: repeat(5, 100px);
-}
-
-/* MAIN CARRUSEL / SLIDERS*/
-
-/* * {
-  box-sizing: border-box;
-}
-
-img {
-  vertical-align: middle;
-} */
-
-/* Position the image MAIN-CARRUSEL (needed to position the left and right arrows) */
 .main-carrusel {
-  grid-column: 1 / 3;
-  grid-row: 2 / 4;
+  display: flex;
 }
-
-/* Hide the images by default */
-.mySlides {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
-  display: none;
+.columnL {
+width: 90%;
+background-color: cornflowerblue;
 }
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
+.ImgFirst{
+  width: 100%;
 }
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 600%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+.columnR {
+width: 10%;
+margin-left: 10px;
+background-color: chocolate;
 }
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+.mySlides img{
+  width: 24.8%;
+  height: auto;
+  object-fit: cover;
 }
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+.selector{
+  font-size: 30px;
 }
-
-/* Number text (1/3 etc) */
-.numberText {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+.colors{
+  font-size: 30px;
 }
-
-/* Container for image text */
-.caption-container {
-  grid-row: 3 / 4;
-  grid-column: 3 / 3;
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
