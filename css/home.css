@@ -15,6 +15,11 @@ body {
     margin-top: -0.5%;
 }
 
+.home-nav img {
+    position: absolute;
+    left: 1%;
+}
+
 .home-nav ul{
     display: flex;
     flex-direction: row;  
@@ -24,7 +29,6 @@ body {
 .home-nav ul li {
     margin-left: 20%;
 }
-
 
 
 * {box-sizing:border-box}
