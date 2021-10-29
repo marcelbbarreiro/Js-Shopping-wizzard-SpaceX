@@ -25,31 +25,50 @@ body {
   justify-content: center;
   align-items: center;
 }
-.homepage {
-  grid-column: 1 / 4;
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}*****
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.home-nav {
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.795);
+    color: rgba(255, 255, 255, 0.877);
+    margin-top: -0.5%;
+}
+
+.home-nav img {
+    position: absolute;
+    left: 1%;
+}
+
+.home-nav ul{
+    display: flex;
+    flex-direction: row;  
+    width: 20%;
+}
+
+.home-nav ul li {
+    margin-left: 20%;
+    text-decoration: none;
+    list-style: none;
 }
 .logo{
   height: 70px;
 }
 
-/* .logo img{
-  display: block;
-  width: 60px;
-  height: 65px;
-  object-fit: cover;
-  padding-right: 50px;
-} */
-
-.about-us li{
-  list-style: none;
-  display: inline-block;
-  font-family: 'Work Sans', sans-serif;
-  padding-left: 10px;
-}
-.links a{
-  text-decoration: none;
-  color: rgb(204, 8, 8);
-}
 .main-carrusel{
   grid-column: 1 / 3;
   grid-row: 2 / 4;
@@ -146,18 +165,3 @@ img {
   clear: both;
 }
 
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}*****
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
