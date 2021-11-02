@@ -1,36 +1,4 @@
 
-body {
-    background: url("/images/MicrosoftTeams-image.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.home-nav {
-    display: flex;
-    background: rgba(0, 0, 0, 0.795);
-    color: rgba(255, 255, 255, 0.877);
-    margin-top: -0.5%;
-}
-
-.home-nav img {
-    position: absolute;
-    left: 2%;
-}
-
-.home-nav ul{
-    display: flex;
-    flex-direction: row;  
-    width: 40%;
-    margin-left: 10%;
-}
-
-.home-nav ul li {
-    margin-left: 20%;
-    width: 100%;
-}
-
 .SpaceX {
   display: flex;
 }
