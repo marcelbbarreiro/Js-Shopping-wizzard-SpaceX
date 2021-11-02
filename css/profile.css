@@ -23,14 +23,14 @@ input {
     
   }
 
-  input:focus {
+input:focus {
     background-color: rgb(255, 255, 255);
     color:black
     transition: width 0.4s ease-in-out;
     width: 75%;
-  }
+}
 
- #profileButton  {
+#profileButton  {
     background-color: #ffffff;
     border: none;
     color: rgb(0, 0, 0);
@@ -39,7 +39,7 @@ input {
     text-decoration: none;
     margin: 20px 0px;
     cursor: pointer;
-  }
+}
 .main-product-button button {;
     display: none;
 }
