@@ -1,11 +1,17 @@
 .username {
-text-align: center;
+    text-align: center;
+    background: #1817176e;
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 30px 0px;
+
 }
 
 
 
 input {
-    width: 30%;
+    width: 70%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -13,14 +19,27 @@ input {
     border-radius: 4px;
     background-color: #00000024;
     color: white;
+    font-size: 17px
     
   }
 
-  input[type=text]:focus {
+  input:focus {
     background-color: rgb(255, 255, 255);
     color:black
+    transition: width 0.4s ease-in-out;
+    width: 75%;
   }
 
+ #profileButton  {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 20px 0px;
+    width: 70%;
+    text-decoration: none;
+    margin: 20px 0px;
+    cursor: pointer;
+  }
 .main-product-button button {;
     display: none;
 }
