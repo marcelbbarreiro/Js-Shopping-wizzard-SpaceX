@@ -1,0 +1,26 @@
+.username {
+text-align: center;
+}
+
+
+
+input {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    background-color: #00000024;
+    color: white;
+    
+  }
+
+  input[type=text]:focus {
+    background-color: rgb(255, 255, 255);
+    color:black
+  }
+
+.main-product-button button {;
+    display: none;
+}
