@@ -3,26 +3,26 @@
   <head>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/home.css" />
-    <script src="/scripts/script.js" defer></script>
+    <script src="/scripts/script.js" type="module" defer></script>
     <title>js Shopping Wizzard</title>
-</head>
+  </head>
   <body>
     <nav></nav>
-<section class="homepage">
-  <div class="logo">
-    <nav class="home-nav">
-      <img src="/images/logo.png" width="9%" />
-      <ul>
-        <li><p>About us</p></li>
-        <li><p>FAQ</p></li>
-        <li><p>Who is Elon?</p></li>
-        <li><p>Contact us</p></li>
-      </ul>
-    </nav>
-  </div>
-<div class="SpaceX"><img src="/images/logo.png" width="35%"></div>
-<div class="main-product-button"><button>OUR PRODUCTS</button></div>
-</section>
+    <section class="homepage">
+      <div class="logo">
+        <nav class="home-nav">
+          <img src="/images/logo.png" width="9%" />
+          <ul>
+            <li><p>About us</p></li>
+            <li><p>FAQ</p></li>
+            <li><p>Who is Elon?</p></li>
+            <li><p>Contact us</p></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="SpaceX"><img src="/images/logo.png" width="35%" /></div>
+      <div class="main-product-button"><button>OUR PRODUCTS</button></div>
+    </section>
     <div>
       <section id="step1">
         <!-- Pagina de modelo y color -->
@@ -32,9 +32,51 @@
         <section class="product product2"></section>
         <section class="product product3"></section>
       </section>
-      <section id="step2 username"><!-- username y password --></section>
+      <section id="step2 username">
+        <!-- username y password -->
+        <form name="profileForm" id="profileForm">
+          <label for="userName">Username:</label><br />
+          <input
+            type="text"
+            id="userName"
+            name="userName"
+            placeholder="Be original"
+            required
+            minlength="5"
+            maxlength="20"
+          /><br />
+          <label for="email">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your email goes here"
+            required
+            maxlength="50"
+          /><br />
+          <label for="password">Password:</label><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            minlength="7"
+            maxlength="20"
+          /><br />
+          <label for="repeatPassword">Repeat password:</label><br />
+          <input
+            type="password"
+            id="repeatPassword"
+            name="repeatPassword"
+            required
+            minlength="8"
+            maxlength="20"
+          /><br />
+          <button id="profileButton" type="submit">NEXT</button>
+        </form>
+      </section>
 
-      <section id="step3 adress"><!-- Direccion de envio --></section>
+      <section id="step3 address"><!-- Direccion de envio --></section>
 
       <section id="step4 delivery"><!-- Modo de envio --></section>
     </div>
