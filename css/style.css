@@ -34,4 +34,7 @@ body {
     width: 200%;
 }
 
+.username {
+    display: none;
+}
 
