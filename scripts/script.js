@@ -1,3 +1,7 @@
+const mainProductbtn = document.querySelector("main-product-button");
+const productBtnPress = mainProductbtn.addEventListener("click", contentChange);
+
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -27,3 +31,8 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+productBtnPress;
+
+function contentChange() {
+  
+}

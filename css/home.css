@@ -43,14 +43,8 @@ body {
 
 .product-button {
   position: absolute;
-  left: 50%;
-  top: 50%;
- -webkit-transform: translateX(-50%);
- -moz-transform: translateX(-50%);
- transform: translateX(-50%);
- -webkit-transform: translateY(-50%);
- -moz-transform: translateY(-50%);
- transform: translateY(-50%);
+  left: 45%;
+  top: 40%;
   background-color: black;
   color: aliceblue;
   box-shadow: none;
