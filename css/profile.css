@@ -19,14 +19,14 @@ input {
     border-radius: 4px;
     background-color: #00000024;
     color: white;
-    font-size: 17px
-    
-  }
+    font-size: 17px;
+
+}
 
 input:focus {
     background-color: rgb(255, 255, 255);
     color:black
-    transition: width 0.4s ease-in-out;
+    transition width 0.4s ease-in-out;
     width: 75%;
 }
 
@@ -40,6 +40,6 @@ input:focus {
     margin: 20px 0px;
     cursor: pointer;
 }
-.main-product-button button {;
+.main-product-button button {
     display: none;
 }
