@@ -1,0 +1,22 @@
+.home-nav {
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.795);
+    color: rgba(255, 255, 255, 0.877);
+    margin-top: -0.5%;
+}
+
+.home-nav img {
+    position: absolute;
+    left: 1%;
+}
+
+.home-nav ul{
+    display: flex;
+    flex-direction: row;  
+    width: 20%;
+}
+
+.home-nav ul li {
+    margin-left: 20%;
+}

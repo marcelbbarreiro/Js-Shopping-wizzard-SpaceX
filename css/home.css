@@ -1,25 +1,15 @@
 
 body {
-    background: url("/images/MicrosoftTeams-image.png") no-repeat center center fixed; 
+    background: url("/images/MicrosoftTeams-image.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-.home-logo {
-  margin-top: 10%;
-  display: flex;
-  justify-content: center;
-}
-
-.home-logo img {
-  display: flex;
-
-}
-
 .home-nav {
     display: flex;
+    justify-content: center;
     background: rgba(0, 0, 0, 0.795);
     color: rgba(255, 255, 255, 0.877);
     margin-top: -0.5%;
@@ -31,7 +21,6 @@ body {
 }
 
 .home-nav ul{
-  margin-left: 10%;
     display: flex;
     flex-direction: row;  
     width: 20%;
@@ -41,17 +30,3 @@ body {
     margin-left: 20%;
 }
 
-.main-product-button {
-  position: absolute;
-  left: 45%;
-  top: 56%;
-  background-color: black;
-  color: aliceblue;
-  box-shadow: none;
-  border: solid white 1px;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 0.5%;
-  padding-right: 0.5%;
-
-}

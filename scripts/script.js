@@ -2,6 +2,7 @@ const mainProductbtn = document.querySelector("main-product-button");
 const productBtnPress = mainProductbtn.addEventListener("click", contentChange);
 
 
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
